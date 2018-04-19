@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -euo pipefail
+
+readonly tmp_file="$(mktemp ./tests/shamir-test-XXXX)"
+trap 'rm -rf "${tmp_file}"' EXIT
+
+readonly secret='$=#,ZDbo73IA+Eu=q].Jjl0ChXRp]QsE'
+
+echo -n "${secret}" | ./bin/shamir split >"${tmp_file}"
+
+test "$(tail -n3 <"${tmp_file}" | ./bin/shamir combine)" == "${secret}"
+test "$(head -n3 <"${tmp_file}" | ./bin/shamir combine)" == "${secret}"
+test "$(head -n2 <"${tmp_file}" | ./bin/shamir combine)" != "${secret}"
+test "$(tail -n2 <"${tmp_file}" | ./bin/shamir combine)" != "${secret}"
+
+echo -n "${secret}" | ./bin/shamir split -p 6 -t 4 >"${tmp_file}"
+
+test "$(tail -n4 <"${tmp_file}" | ./bin/shamir combine)" == "${secret}"
+test "$(tail -n3 <"${tmp_file}" | ./bin/shamir combine)" != "${secret}"
+
+echo -e '\033[0;32mOK\033[0m'
