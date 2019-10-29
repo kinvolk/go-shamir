@@ -205,8 +205,6 @@ github.com/hashicorp/consul/api v1.0.1 h1:LkHu3cLXjya4lgrAyZVe/CUBXgJ7AcDWKSeCjA
 github.com/hashicorp/consul/api v1.0.1/go.mod h1:LQlewHPiuaRhn1mP2XE4RrjnlRgOeWa/ZM0xWLCen2M=
 github.com/hashicorp/consul/sdk v0.1.0/go.mod h1:VKf9jXwCTEY1QZP2MOLRhb5i/I/ssyNV1vwHyQBF0x8=
 github.com/hashicorp/consul/sdk v0.1.1/go.mod h1:VKf9jXwCTEY1QZP2MOLRhb5i/I/ssyNV1vwHyQBF0x8=
-github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce h1:prjrVgOk2Yg6w+PflHoszQNLTUh4kaByUcEWM/9uin4=
-github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/errwrap v1.0.0 h1:hLrqtEDnRye3+sgx6z4qVLNuviH3MR5aQ0ykNJa/UYA=
 github.com/hashicorp/errwrap v1.0.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brvKWEqk/Jc4=
 github.com/hashicorp/go-cleanhttp v0.5.0/go.mod h1:JpRdi6/HCYpAwUzNwuwqhbovhLtngrth3wmdIIUrZ80=
@@ -271,8 +269,6 @@ github.com/hashicorp/raft-snapshot v1.0.1 h1:cx002JsTEAfAP0pIuANlDtTXg/pi2Db6YbR
 github.com/hashicorp/raft-snapshot v1.0.1/go.mod h1:5sL9eUn72lH5DzsFIJ9jaysITbHksSSszImWSOTC8Ic=
 github.com/hashicorp/serf v0.8.2 h1:YZ7UKsJv+hKjqGVUUbtE3HNj79Eln2oQ75tniF6iPt0=
 github.com/hashicorp/serf v0.8.2/go.mod h1:6hOLApaqBFA1NXqRQAsxw9QxuDEvNxSQRwA/JwenrHc=
-github.com/hashicorp/vault v0.10.0 h1:vOaeei6DuzMtc8ES6jd18/VswSyxwmvWA03JvrQLeKA=
-github.com/hashicorp/vault v0.10.0/go.mod h1:KfSyffbKxoVyspOdlaGVjIuwLobi07qD1bAbosPMpP0=
 github.com/hashicorp/vault v1.2.3 h1:kTMygKuUEjFSp5Xzfkw7R2ScJcOG4rsAcDnPtdrOBsE=
 github.com/hashicorp/vault v1.2.3/go.mod h1:3foqP78mwtT8iZoKtBt41XnUpL7/etJxg+GQQX+6p64=
 github.com/hashicorp/vault-plugin-auth-alicloud v0.5.2-0.20190814210027-93970f08f2ec h1:HXVE8h6RXFsPJgwWpE+5CscsgekqtX4nhDlZGV9jEe4=
@@ -482,8 +478,6 @@ github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a/go.mod h1:s
 github.com/soheilhy/cmux v0.1.4/go.mod h1:IM3LyeVVIOuxMH7sFAkER9+bJ4dT7Ms6E4xg4kGIyLM=
 github.com/spf13/afero v1.1.2/go.mod h1:j4pytiNVoe2o6bmDsKpLACNPDBIoEAkihy7loJ1B0CQ=
 github.com/spf13/cast v1.3.0/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
-github.com/spf13/cobra v0.0.2 h1:NfkwRbgViGoyjBKsLI0QMDcuMnhM+SBg3T0cGfpvKDE=
-github.com/spf13/cobra v0.0.2/go.mod h1:1l0Ry5zgKvJasoi3XT1TypsSe7PqH0Sj9dhYf7v3XqQ=
 github.com/spf13/cobra v0.0.3/go.mod h1:1l0Ry5zgKvJasoi3XT1TypsSe7PqH0Sj9dhYf7v3XqQ=
 github.com/spf13/cobra v0.0.5 h1:f0B+LkLX6DtmRH1isoNA9VTtNUK9K8xYd28JNNfOv/s=
 github.com/spf13/cobra v0.0.5/go.mod h1:3K3wKZymM7VvHMDS9+Akkh4K60UwM26emMESw8tLCHU=
