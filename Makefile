@@ -1,13 +1,18 @@
-all: build
+all: test
 
 .PHONY: all
 
-build:
+dep:
+	go mod download
+
+.PHONY: dep
+
+build: dep
 	go build -o bin/shamir cli/main.go
 
 .PHONY: build
 
-test:
+test: build
 	./tests/shamir
 
 .PHONY: test
