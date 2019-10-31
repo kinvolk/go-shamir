@@ -7,8 +7,13 @@ dep:
 
 .PHONY: dep
 
-build: dep
+build:
 	go build -o bin/shamir cli/main.go
+
+.PHONY: build
+
+vendor:
+	go mod vendor
 
 .PHONY: build
 
