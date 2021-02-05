@@ -2,6 +2,8 @@ A small CLI tool for [Shamir's Secret Sharing](https://en.wikipedia.org/wiki/Sha
 written in Go, using [Vault's](https://github.com/hashicorp/vault) Shamir
 implementation.
 
+![Go](https://github.com/kinvolk/go-shamir/workflows/Go/badge.svg)
+
 ## Usage
 
 Split secret:
