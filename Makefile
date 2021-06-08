@@ -8,7 +8,7 @@ dep:
 .PHONY: dep
 
 build:
-	go build -o bin/shamir cli/main.go
+	go build -o bin/go-shamir main.go
 
 .PHONY: build
 

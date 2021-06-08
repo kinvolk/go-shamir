@@ -10,7 +10,7 @@ import (
 var cfgFile string
 
 var RootCmd = &cobra.Command{
-	Use: "shamir",
+	Use: "go-shamir",
 }
 
 func Execute() {
